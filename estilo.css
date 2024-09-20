@@ -1,0 +1,52 @@
+.logo {
+    max-width: 100px;
+}
+
+header {
+    background-image: url(img/Cod06.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: slide;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slide {
+    0% {background-image: url(img/mapa.jpg);}
+    25% {background-image: url(img/kart.jpg);}
+    50% {background-image: url(img/mercedespordosol.jpg);}
+    75% {background-image: url(img/painel.jpg);}
+    100% {background-image: url(img/menmustang.jpg);}
+}
+
+.nav-item{
+    margin-left: 50px;
+}
+
+.nav-link{
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+color: #BABACA;
+
+}
+
+form {
+    padding: 5px;
+}
+
+form {
+    font-weight: bolder;
+}
+
+form input:hover, select:hover, textarea:hover {
+    background-color: rgba(223, 219, 219, 0,6);
+
+}
+
+form textarea {
+    resize: none;
+}
